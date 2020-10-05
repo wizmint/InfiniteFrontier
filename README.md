@@ -1,7 +1,7 @@
 # InfiniteFrontier
 React Native Example Application
 
-## Installation
+## React Native Installation
 
 	[Install Xcode from app store] 
 	xcode-select --install

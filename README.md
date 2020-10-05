@@ -1,5 +1,7 @@
+<img src="https://github.com/wizmint/InfiniteFrontier/blob/main/ios/Resources/IF%20Promo.jpg" />
+
 # InfiniteFrontier
-React Native Example Application
+A simple space exploration game using React Native.
 
 ## React Native Installation
 

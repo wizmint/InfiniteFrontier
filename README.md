@@ -31,7 +31,7 @@ React Native Example Application
 	npm install @material-ui/core
 	npm install @material-ui/icons
 
-## SETUP IOS [iOS directory]
+## Setup iOS [iOS directory]
 
 	pod install
 

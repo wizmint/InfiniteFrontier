@@ -1,7 +1,7 @@
 # InfiniteFrontier
 React Native Example Application
 
-## INSTALLATION
+## Installation
 
 	[Install Xcode from app store] 
 	xcode-select --install
@@ -18,24 +18,24 @@ React Native Example Application
 
 	npm install -g yarn
 
-## NEW APPLICATION
+## New Application
 
 	npx react-native init <project-name>
 
-## REALM [Root]
+## Setup Realm [Root directory]
 
 	npm install --save realm
 
-## MATERIAL UI [Root]
+## Setup Material UI [Root directory]
 
 	npm install @material-ui/core
 	npm install @material-ui/icons
 
-## RUNNING IOS APP [iOS directory]
+## SETUP IOS [iOS directory]
 
 	pod install
+
+## Run Application
+
 	npm run ios
-
-## RUNNING ANDROID APP
-
 	npm run android

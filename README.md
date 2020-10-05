@@ -22,20 +22,20 @@ React Native Example Application
 
 	npx react-native init <project-name>
 
-## REALM [INSIDE DIRECTORY]
+## REALM [Root]
 
 	npm install --save realm
 
-## MATERIAL UI [INSIDE DIRECTORY]
+## MATERIAL UI [Root]
 
 	npm install @material-ui/core
 	npm install @material-ui/icons
 
-## RUNNING IOS APP [INSIDE IOS DIRECTORY]
+## RUNNING IOS APP [iOS directory]
 
 	pod install
 	npm run ios
 
-## RUNNING ANDROID APP [AVD NEEDS TO BE RUNNING FIRST!]
+## RUNNING ANDROID APP
 
 	npm run android

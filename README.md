@@ -1,4 +1,4 @@
-<img src="https://github.com/wizmint/InfiniteFrontier/blob/main/ios/Resources/IF%20Promo.jpg" />
+<img src="https://github.com/wizmint/InfiniteFrontier/blob/main/ios/Resources/Promo.jpg" />
 
 # InfiniteFrontier
 A simple space exploration game using React Native.

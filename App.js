@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 
 import {
@@ -40,6 +41,11 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
+              <TouchableOpacity onPress={() => Linking.openURL('http://google.com')}>
+                <Text style={{color: 'blue'}}>
+                  New Game!
+                </Text>
+              </TouchableOpacity>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this

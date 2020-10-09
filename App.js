@@ -15,7 +15,11 @@ import {
   Text,
   StatusBar,
   TouchableOpacity,
+  Linking,
+  Alert,
 } from 'react-native';
+
+import { Button } from 'react-native-elements';
 
 import {
   Header,
@@ -41,11 +45,10 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <TouchableOpacity onPress={() => Linking.openURL('http://google.com')}>
-                <Text style={{color: 'blue'}}>
-                  New Game!
-                </Text>
-              </TouchableOpacity>
+              <Button title="Press me" color="#00ff00" type="outline" onPress={() => Alert.alert('Simple Button pressed')}/>
+              <TouchableOpacity onPress={() => this._onPressAppoimentButton()} style={styles.Btn}>
+    <Button title="Order Online" style={styles.Btn} > </Button>
+</TouchableOpacity>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
